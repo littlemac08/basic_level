@@ -1,0 +1,27 @@
+.loading {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#000;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+
+
+@media(max-width:1680px) {
+    .App {
+        width:1680px;
+        height:938px;
+    }
+}
+@media(min-width:1681px) {
+    .App {
+        width:1920px;
+        height:969px;
+    }
+}
